@@ -14,6 +14,7 @@
 		E77C4A3E2B5FC60800858F66 /* YummiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77C4A3D2B5FC60800858F66 /* YummiTests.swift */; };
 		E77C4A482B5FC60800858F66 /* YummiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77C4A472B5FC60800858F66 /* YummiUITests.swift */; };
 		E77C4A4A2B5FC60800858F66 /* YummiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77C4A492B5FC60800858F66 /* YummiUITestsLaunchTests.swift */; };
+		E77C4A572B5FC8B800858F66 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77C4A562B5FC8B800858F66 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		E77C4A432B5FC60800858F66 /* YummiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YummiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E77C4A472B5FC60800858F66 /* YummiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YummiUITests.swift; sourceTree = "<group>"; };
 		E77C4A492B5FC60800858F66 /* YummiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YummiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E77C4A562B5FC8B800858F66 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				E77C4A2C2B5FC60400858F66 /* YummiApp.swift */,
 				E77C4A2E2B5FC60400858F66 /* ContentView.swift */,
+				E77C4A562B5FC8B800858F66 /* Model.swift */,
 				E77C4A302B5FC60800858F66 /* Assets.xcassets */,
 				E77C4A322B5FC60800858F66 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E77C4A572B5FC8B800858F66 /* Model.swift in Sources */,
 				E77C4A2F2B5FC60400858F66 /* ContentView.swift in Sources */,
 				E77C4A2D2B5FC60400858F66 /* YummiApp.swift in Sources */,
 			);
