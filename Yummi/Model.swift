@@ -17,8 +17,6 @@ enum Category {
 }
 
 enum Unit{
-    case gram
-    case kilogram
     case millilitre
     case clove
     case slice
@@ -31,7 +29,7 @@ struct Ingredient {
     var quantity: Int
     let unit: Unit
     let category: Category
-    let expiryDate: String
+    let expiryDate: Date
     
     func displayIngredients() -> String {
         let data = """
