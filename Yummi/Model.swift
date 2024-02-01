@@ -31,13 +31,20 @@ struct Ingredient {
     let category: Category
     let expiryDate: Date
     
+    func formatDate() -> String{
+        let formatter = DateFormatter()
+        formatter.dateStyle = .short
+        formatter.locale = Locale(identifier:"en-GB")
+        let display  = formatter.string(from: expiryDate)
+        return display
+    }
     func displayIngredients() -> String {
         let data = """
             Name: \(name)
             Quantity: \(quantity)
             Unit: \(unit)
             Category: \(category)
-            Expiry Date: \(expiryDate)
+            Expiry Date: \(formatDate())
             """
         return data
     }
